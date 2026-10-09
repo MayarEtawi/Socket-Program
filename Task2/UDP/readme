@@ -1,0 +1,19 @@
+UDP Client/Server Application
+
+Files:
+- server.py : UDP server program
+- client.py : UDP client program
+
+Description:
+This application implements UDP communication between a client and a server using Python socket programming. The client sends 200 packets to the server, and the server analyzes the received packets to detect missing and out-of-order packets.
+
+Port Number:
+7200
+
+How to Run:
+1. Run server.py first.
+2. Run client.py from another terminal window.
+3. Observe the packet transmission and analysis results.
+
+Requirements:
+- Python 3.x
