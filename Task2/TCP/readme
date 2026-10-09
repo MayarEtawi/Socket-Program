@@ -1,0 +1,19 @@
+TCP Client/Server Application
+
+Files:
+- server.py : TCP server program
+- client.py : TCP client program
+
+Description:
+This application implements TCP communication between a client and a server using Python socket programming. The server receives messages from the client and sends acknowledgment messages (ACKs) for each received message.
+
+Port Number:
+7019
+
+How to Run:
+1. Run server.py first.
+2. Run client.py from another terminal window.
+3. Observe the transmitted messages and acknowledgments.
+
+Requirements:
+- Python 3.x
